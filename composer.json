@@ -1,0 +1,26 @@
+{
+    "name": "azbosakov/param-string-printf",
+    "description": "Template string with printf-style placeholders.",
+    "keywords": ["template", "templating", "printf", "sprintf"],
+    "type": "library",
+    "require-dev": {
+        "azbosakov/param-string-interface": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksandar Zdravkov Bosakov",
+            "email": "aleksandar.z.bosakov@gmail.com"
+        }
+    ],
+    "version": "1.0.0",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "AZBosakov\\ParamString\\": "src/"
+        }
+    },
+    "require": {
+        "azbosakov/param-string-interface": "^1.0"
+    }
+}
